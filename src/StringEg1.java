@@ -8,7 +8,7 @@ class StringEg1{
 		System.out.println(Name.contains("Yoga"));
 		System.out.println(Name.contains("karnan")); //---Case sensitive
 	
-System.out.println("");
+System.out.println();
 	    System.out.println("String compareTo() Method");
 	    String s1 = "Vizhali";
 	    String s2 = "Mona";
@@ -21,12 +21,12 @@ System.out.println("");
 	    System.out.println(s2.compareTo(s5));     //0    equal 
 	    System.out.println(s3.compareTo(s4));     //-ve  less_than
         
-System.out.println("");
+System.out.println();
         System.out.println("String replace() Method");   
         String replaceStr = s4.replace("Yoga", "Yogeshwari");
         System.out.println(replaceStr);
         
-System.out.println("");
+System.out.println();
         System.out.println("String isEmpty() Method");
         System.out.println(s1.isEmpty());            //F  --- Length is Not 0
         System.out.println(s3.isEmpty());           //T  --- Length is 0
